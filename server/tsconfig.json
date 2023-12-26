@@ -1,0 +1,27 @@
+{
+   "compilerOptions": {
+     "target": "ES6",
+     "module": "NodeNext",
+     "sourceMap": true,
+     "outDir": "dist",
+     "strict": true,
+     "noImplicitAny": true,
+     "strictFunctionTypes": true,
+     "noUnusedLocals": true,
+     "noUnusedParameters": true,
+     "moduleResolution": "NodeNext",
+     "skipLibCheck": true,
+     "esModuleInterop": true,
+     "baseUrl": "./",
+     "paths": {
+      "*": [
+        "node_modules/*"
+      ]
+     }
+   },
+   "include": [
+     "types.d.ts",
+     "src/**/*"
+   ],
+   "exclude": ["node_modules"]
+}
